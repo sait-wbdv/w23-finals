@@ -14,6 +14,9 @@ export const roster = [
       }
     ],
     badges: [
+      {
+        name: 'code-warrior'
+      }
     ]
   },
   {
@@ -39,7 +42,9 @@ export const roster = [
       }
     ],
     badges: [
-      
+      {
+        name: 'mvp'
+      }
     ]
   },
   {

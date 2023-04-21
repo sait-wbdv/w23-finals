@@ -11,6 +11,7 @@ const socialLookUp = {
   youtube: 'fa6-brands:youtube',
   email: 'fa6-regular:envelope',
   resume: 'fa6-regular:file-lines',
+  twitter: 'fa6-brands:twitter',
   default: 'fa6-solid:user-tie'
 }
 </script>
