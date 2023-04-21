@@ -1,7 +1,7 @@
 const round1 = [
   {
     name: 'Caku J',
-    title: 'Client Website'
+    title: 'FTCC Fellowship'
   },
   {
     name: 'Sidney Lemon',
