@@ -5,7 +5,7 @@ import { round1 } from "../data/finals-w23.js";
 const rounds = [
   {
     speakers: round1,
-    start: '10:15am',
+    start: '11am',
     container: 'round1'
   }
 ];
@@ -16,7 +16,7 @@ const rounds = [
       <img src="/images/sait-logo.png" alt="SAIT Logo">
       <div>
         <h1>SAIT Web Developer Fast Track</h1>
-        <h2>Final Presentations - December 16, 2022</h2>
+        <h2>Final Presentations - April 21, 2023</h2>
       </div> 
     </header>
     <main>
@@ -31,8 +31,8 @@ const rounds = [
       <h3>Program Overview</h3>
       <ul class="overview">
         <li><em>Tools</em>: Git/GitHub, npm, VS Code, Postman</li>
-        <li><em>Development</em>: HTML/CSS/JS, VueJS/NuxtJS, Strapi Headless CMS, CSS Tailwind</li>
-        <li><em>Deployment</em>: GitHub, Netlify</li>
+        <li><em>Development</em>: HTML/CSS/JS, Svelte/SvelteKit, Supabase (Postgres), CSS Tailwind</li>
+        <li><em>Deployment</em>: GitHub, Vercel</li>
         <li><em>Design</em>: Figma, Photoshop/GIMP</li>
       </ul>
       
@@ -52,7 +52,7 @@ const rounds = [
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap');
 
 /* Comment out for live site */
-body {
+/* body {
   margin-bottom: 50vh;
 }
 .presentation {
@@ -64,7 +64,7 @@ h3.rounds {
 }
 h3.open {
   margin-top: 50vh;
-}
+} */
 /* End comment */
 
 /* Font */

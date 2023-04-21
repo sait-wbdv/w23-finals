@@ -8,7 +8,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <h3 class="rounds open">{{round.start}}: Round {{(index + 1)}} Presentations</h3>
+  <h3 class="rounds open">Presentations: {{round.start}}</h3>
+  <!-- <h3 class="rounds open">{{round.start}}: Round {{(index + 1)}} Presentations</h3> -->
       <section :id="round.container">
         <article class="presentation" v-for="speaker in round.speakers" :key="speaker.id" :speaker=speaker>
           <header><h4>{{speaker.title}}</h4></header>
